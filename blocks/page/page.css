@@ -1,0 +1,10 @@
+.page {
+    background: #FFF;
+    font-family: 'Futura', sans-serif;
+}
+
+@media screen and (min-width: 320px) and (max-width: 475px) {
+    .page {
+        overflow-x: hidden;
+    }
+}

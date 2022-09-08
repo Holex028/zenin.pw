@@ -1,0 +1,105 @@
+.form-action {
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: #fff;
+}
+
+.bonus__content--form {
+    max-width: 386px;
+}
+
+.content__form {
+    border-width: 3px;
+    border-radius: 10px;
+    border-color: #3bb6fd;
+    border-style: solid;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form__title {
+    color: #000000;
+    font-size: 30px;
+    font-family: 'Arial', Arial, sans-serif;
+    line-height: 1.55;
+    font-weight: 600;
+    opacity: 0.85;
+    margin: 0;
+    text-align: center;
+}
+
+.form__phone--title {
+    margin: 0;
+    margin-top: 50px;
+    color: #000;
+    font-weight: 400;
+    font-family: 'Futura';
+    font-size: 22px;
+    padding-bottom: 15px;
+}
+
+.form__phone {
+    width: 290px;
+    color: #000000;
+    border: 2px solid #3bb6fd;
+    background-color: #fff;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    font-size: 25px;
+    font-weight: 600;
+    height: 34px;
+    padding: 5px 20px;
+}
+
+.form__phone:active,
+ :hover,
+ :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+.form__checkbox {
+    margin-top: 20px;
+}
+
+.form__button {
+    align-self: center;
+    margin-top: 85px;
+    color: #fff;
+    background-color: #3bb6fd;
+    border-radius: 30px;
+    font-family: PT Sans;
+    font-weight: 700;
+    font-size: 20px;
+    width: 300px;
+    height: 70px;
+    border: none;
+}
+
+.result__video {
+    width: 535px;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 320px) and (max-width: 475px) {
+    .form-action {
+        max-width: 300px;
+        margin-top: 30px;
+    }
+    .form__title {
+        font-size: 20px;
+        line-height: 1.25;
+        letter-spacing: 0px;
+    }
+    .form__phone {
+        width: auto;
+    }
+    .form__button {
+        margin-top: 20px;
+        font-size: 15px;
+        width: 250px;
+        height: 50px;
+    }
+}

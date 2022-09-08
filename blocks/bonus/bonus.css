@@ -1,0 +1,23 @@
+.bonus__content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    align-items: center;
+}
+
+@media screen and (min-width: 320px) and (max-width: 475px) {
+    .bonus__content {
+        margin: 0 auto;
+        width: 320px;
+        margin-top: 50px;
+        flex-direction: column;
+    }
+    .bonus__content--video iframe {
+        width: 320px;
+        height: 170px;
+    }
+    .bonus__content--form {
+        max-width: 300px;
+        margin-top: 30px;
+    }
+}
